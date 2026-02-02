@@ -1,0 +1,110 @@
+body {
+    font-family: sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: darkslategrey;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+nav {
+    background-color: lightslategrey;
+    padding: 10px;
+    text-align: center;
+}
+
+nav button {
+    background-color: steelblue;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+nav button:hover {
+    background-color: lightsteelblue;
+    color: black;
+}
+
+main {
+    background-color: white;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px lightgrey;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: cadetblue;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+tr:hover {
+    background-color: honeydew;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid silver;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: forestgreen;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: darkgreen;
+}
+
+.btn-editar {
+    background-color: orange;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.btn-borrar {
+    background-color: crimson;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 14px;
+    display: inline-block;
+}
