@@ -11,7 +11,7 @@ $id_seleccionado = $_GET['id_categoria'] ?? '';
 $productos = [];
 
 if ($id_seleccionado != '') {
-    // 3. Consulta con JOIN usando los nombres de tu BD
+
     $sql = "SELECT p.*, c.nombre_categoria 
             FROM productos p 
             INNER JOIN categorias c ON p.id_categoria = c.id 
