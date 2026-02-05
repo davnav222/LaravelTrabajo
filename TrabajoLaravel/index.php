@@ -13,7 +13,6 @@
             <a href="index.php?page=listado"><button>Listado General</button></a>
             <a href="index.php?page=filtrado"><button>Filtrado</button></a>
             <a href="index.php?page=gestion"><button>Modificar/Borrar</button></a>
-	    <a href="index.php?page=ventas"><button>Vender Artículo</button></a>
         </nav>
     </header>
 
